@@ -3,41 +3,34 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>About</title>
+  <title>Contact</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <header>
     <div id="links">
       <a class="navlinks" href="C:\Users\kaden\Documents\Coursework\blockwork\personal_website_2\home.html">Home</a>
-      <a class="navlinks" id="currentpagelink" href="C:\Users\kaden\Documents\Coursework\blockwork\personal_website_2\about.html">About</a>
+      <a class="navlinks" href="C:\Users\kaden\Documents\Coursework\blockwork\personal_website_2\about.html">About</a>
       <a class="navlinks" href="C:\Users\kaden\Documents\Coursework\blockwork\personal_website_2\portfolio.html">Portfolio</a>
-      <a class="navlinks" href="C:\Users\kaden\Documents\Coursework\blockwork\personal_website_2\contact.html">Contact</a>
+      <a class="navlinks" id="currentpagelink" href="C:\Users\kaden\Documents\Coursework\blockwork\personal_website_2\contact.html">Contact</a>
     </div>
     <div id="logo">
       <h1>Kaden Reynolds</h1>
     </div>
   </header>
   <main>
-    <h3 id="interestheader">My Interests:</h3>
-    <p id="interestpara">
-      <br>
-      I am interested in learning about anything and there are so many things I love to do, 
-      <br>
-      <br>
-      I love coding of course, but I also like to do things like sketch. I love playing games 
-      <br>
-      <br>
-      and thinking "How was this made?" or "How would I have made this?" so I can get some coding 
-      <br>
-      <br>
-      practice in while having fun playing my favorite games. I am also very serious about coding however; 
-      <br>
-      <br>
-      it is my career of choice and I know when to buckle down and get work done.
-      <br>
-      <br>
-    </p>
+    <div id="formdiv">
+      <h1 id="formheader">Contact Us:</h1>
+      <form action="C:\Users\kaden\Documents\Coursework\blockwork\personal_website_2\congrats.html" id="contactform" target="_blank">
+        <label for="name" class="labels">Full Name:</label>
+        <input type="text" placeholder="Ex: 'John Doe'" class="forminputs" id="name">
+        <label for="email" class="labels">Email Adress:</label>
+        <input type="email" placeholder="Ex: 'johndoe@email.com'" class="forminputs" id="email">
+        <h3 class="labels" id="messageheader">Message:</h3>
+        <textarea name="message" id="message" cols="30" rows="10" placeholder="Write message here..."></textarea>
+        <button id="submitbtn" class="forminputs">Submit</button>
+      </form>
+    </div>
   </main>
   <footer>
     <a href="https://discord.com" id="discordlink" target="_blank">
