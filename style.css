@@ -150,43 +150,57 @@ main{
 }
 
 #projectone{
+  margin-left: 2vw;
   background-color: rgb(242, 242, 242);
 }
 
 #projectoneimage{
   position: absolute;
-  margin: 75px auto;
-  right: 30px;
+  display: flex;
+  top: 0px;
   width: 30vw;
-  height: 70vh;
+  height: 28.5vh;
+  z-index: 1;
   background: url(file:///C:/Users/kaden/Videos/Captures/Document%20-%20Opera%2010_10_2023%2012_19_15%20AM.png) no-repeat;
-  background-size: contain;
-  border-radius: 10px;
+  background-size: cover;
+  border-top-right-radius: 7px;
+  border-top-left-radius: 7px;
+  border-bottom-left-radius: 2px;
+  border-bottom-right-radius: 2px;
 }
 
 #projectonedesc{
-  padding: 10px;
-  width: 35vw;
-  margin-top: 80px;
-  margin-left: 20px;
-  font-size: 1.75em;
+  position: absolute;
+  padding: 1vh;
+  margin: 0px auto;
+  width: 25vw;
+  height: 16vh;
+  top: 19vw;
+  left: 6%;
+  font-size: 1em;
   border-radius: 10px;
   font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  /* background-color: white; */
+  background-color: white;
 }
 
 #projectonelink{
   position: absolute;
-  margin: 9vh auto;
-  padding: 10px;
-  left: 35%;
+  margin: 0vh auto;
+  height: 4vh;
+  padding: 0px 10px;
+  padding-top: 12vh;
+  padding-bottom: 0px;
+  left: 74%;
+  top: 17.2vh;
+  z-index: 0;
   text-align: center;
   text-decoration: none;
-  font-size: 2em;
+  font-size: 1.25em;
   font-weight: light;
   font-family: Georgia, Times, 'Times New Roman', serif;
   border-radius: 10px;
   color: rgb(5, 74, 77);
+  background-color: white;
 }
 
 #projectonelink:hover{
@@ -199,38 +213,51 @@ main{
 
 #projecttwoimage{
   position: absolute;
-  margin: 75px auto;
-  right: 30px;
+  display: flex;
+  top: 0px;
   width: 30vw;
-  height: 70vh;
+  height: 28.5vh;
+  z-index: 1;
   background: url(file:///C:/Users/kaden/Downloads/Grocery%20List%20-%20Opera%2010_10_2023%202_09_13%20PM.png) no-repeat;
-  background-size: contain;
-  border-radius: 10px;
+  background-size: cover;
+  border-top-right-radius: 7px;
+  border-top-left-radius: 7px;
+  border-bottom-left-radius: 2px;
+  border-bottom-right-radius: 2px;
 }
 
 #projecttwodesc{
-  padding: 10px;
-  width: 35vw;
-  margin-top: 80px;
-  margin-left: 20px;
-  font-size: 1.75em;
+  position: absolute;
+  padding: 1vh;
+  margin: 0px auto;
+  width: 25vw;
+  height: 16vh;
+  top: 19vw;
+  left: 6%;
+  font-size: 1em;
   border-radius: 10px;
   font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  /* background-color: white; */
+  background-color: white;
 }
 
 #projecttwolink{
   position: absolute;
-  margin: 9vh auto;
-  padding: 10px;
-  left: 35%;
+  margin: 0vh auto;
+  height: 4vh;
+  padding: 0px 10px;
+  padding-top: 12vh;
+  padding-bottom: 0px;
+  left: 74%;
+  top: 17.2vh;
+  z-index: 0;
   text-align: center;
   text-decoration: none;
-  font-size: 2em;
+  font-size: 1.25em;
   font-weight: light;
   font-family: Georgia, Times, 'Times New Roman', serif;
   border-radius: 10px;
   color: rgb(5, 74, 77);
+  background-color: white;
 }
 
 #projecttwolink:hover{
@@ -243,39 +270,51 @@ main{
 
 #projectthreeimage{
   position: absolute;
-  margin: 75px auto;
-  right: 30px;
+  display: flex;
+  top: 0px;
   width: 30vw;
-  height: 70vh;
+  height: 28.5vh;
+  z-index: 1;
   background: url(file:///C:/Users/kaden/Videos/Captures/KadenReynolds_Block_05-ZooProblem%20-%20Opera%2010_10_2023%202_18_54%20PM.png) no-repeat;
-  background-size: contain;
-  border-radius: 10px;
+  background-size: cover;
+  border-top-right-radius: 7px;
+  border-top-left-radius: 7px;
+  border-bottom-left-radius: 2px;
+  border-bottom-right-radius: 2px;
 }
 
 #projectthreedesc{
-  padding: 10px;
-  width: 35vw;
-  margin-top: 80px;
-  margin-left: 20px;
-  font-size: 1.75em;
+  position: absolute;
+  padding: 1vh;
+  margin: 0px auto;
+  width: 25vw;
+  height: 16vh;
+  top: 19vw;
+  left: 6%;
+  font-size: 1em;
   border-radius: 10px;
-  font-weight: light;
   font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  /* background-color: white; */
+  background-color: white;
 }
 
 #projectthreelink{
   position: absolute;
-  margin: 9vh auto;
-  padding: 10px;
-  left: 35%;
+  margin: 0vh auto;
+  height: 4vh;
+  padding: 0px 10px;
+  padding-top: 12vh;
+  padding-bottom: 0px;
+  left: 74%;
+  top: 17.2vh;
+  z-index: 0;
   text-align: center;
   text-decoration: none;
-  font-size: 2em;
+  font-size: 1.25em;
   font-weight: light;
   font-family: Georgia, Times, 'Times New Roman', serif;
   border-radius: 10px;
   color: rgb(5, 74, 77);
+  background-color: white;
 }
 
 #projectthreelink:hover{
@@ -287,24 +326,25 @@ main{
   position: relative;
   padding-top:10px;
   margin: 5px auto;
-  width: 70vw;
-  height: 70vh;
+  width: 30vw;
+  height: 55vh;
   background-color: rgb(218, 218, 218);
   border-radius: 7px;
 }
 
 .projectname{
-  margin: 20px;
-  width: 30vw;
+  margin: 25vh 20px;
+  width: 15vw;
   height: 4vh;
-  padding-bottom: 20px;
+  padding-top: 3vh;
+  left: 10%;
   text-align: center;
-  font-size: 3.5em;
+  font-size: 1.5em;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   font-weight: lighter;
   color: rgb(48, 112, 136);
   border-radius: 10px;
-  /* background-color: white; */
+  background-color: white;
 }
 
 #discordimg{
