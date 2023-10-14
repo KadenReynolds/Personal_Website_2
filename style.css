@@ -1,6 +1,6 @@
 
 body{
- background-color: rgb(255, 255, 255)
+  background-image: linear-gradient(to top, #ffffff, #d3c8ff, #a791ff, #7658ff, #2c00ff);
 }
 
 header{
@@ -12,7 +12,7 @@ header{
   padding: 0px;
   left: 0px;
   top: 0px;
-  background-color: rgb(255, 214, 186);
+  /* background-color: rgb(255, 214, 186); */
 }
 
 #links{
@@ -34,7 +34,8 @@ header{
 }
 
 .navlinks:hover{
-  background-color: rgb(161, 147, 129);
+  background-color: rgb(255, 255, 255);
+  color: black;
   border-radius: 3px;
 }
 
@@ -53,7 +54,7 @@ header{
   left: 20px;
   font-variant: small-caps;
   font-size: 1.25em;
-  color: rgb(162, 44, 41);
+  color: rgb(255, 255, 255);
   /* background-color: rgb(255, 214, 186); */
 }
 
@@ -72,7 +73,7 @@ header{
   background: url(file:///C:/Users/kaden/Downloads/image_2023-10-09_104027825.png) no-repeat;
   background-size: 50%;
   background-position: right;
-  background-color: rgb(243, 243, 243);
+  /* background-color: rgb(243, 243, 243); */
   border-radius: 10px;
 }
 
@@ -81,7 +82,7 @@ main{
   width: 98vw;
   min-height: 100vh;
   margin: 100px auto;
-  background-color: rgb(255, 255, 255);
+  /* background-color: rgb(255, 255, 255); */
   border-radius: 10px;
 }
 
@@ -95,7 +96,7 @@ main{
   font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   font-size: 2.85em;
   font-weight: lighter;
-  color: rgb(116, 179, 206);
+  color: rgb(255, 255, 255);
 }
 
 #informationparagraph{
@@ -103,7 +104,7 @@ main{
   justify-content: flex-start;
   padding-top: 25vh;
   padding-left: 30px;
-  color: rgb(56,56,76);
+  color: rgb(216, 216, 255);
   font-size: 1.3em;
   font-weight: lighter;
   font-family:Verdana, Geneva, Tahoma, sans-serif;
@@ -117,13 +118,13 @@ main{
   font-weight: lighter;
   font-size: 3em;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  color: rgb(116, 179, 206);
+  color: rgb(0, 31, 209);
 }
 
 #interestheader{
   padding: 20px;
   font-size: 3em;
-  color: rgb(48, 112, 136);
+  color: rgb(228, 248, 255);
 }
 
 #interestpara{
@@ -146,11 +147,16 @@ main{
   font-size: 4em;
   font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   font-weight: lighter;
-  color: rgb(86, 86, 118);
+  color: rgb(255, 255, 255);
 }
 
 #projectone{
-  margin-left: 2vw;
+  display: flex;
+  position: absolute;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin-right: 0px;
+  margin-left: 1vw;
   background-color: rgb(242, 242, 242);
 }
 
@@ -172,33 +178,39 @@ main{
 #projectonedesc{
   position: absolute;
   padding: 1vh;
-  margin: 0px auto;
+  margin: 1vh auto;
   width: 25vw;
   height: 16vh;
-  top: 19vw;
+  top: 18.5vw;
   left: 6%;
   font-size: 1em;
   border-radius: 10px;
+  border-bottom: 2px solid grey;
   font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   background-color: white;
 }
 
 #projectonelink{
   position: absolute;
-  margin: 0vh auto;
+  margin: 11.3vh auto;
+  margin-bottom: 0px;
   height: 4vh;
-  padding: 0px 10px;
-  padding-top: 12vh;
+  padding: 5px 10px;
   padding-bottom: 0px;
   left: 74%;
   top: 17.2vh;
-  z-index: 0;
+  z-index: 1;
   text-align: center;
   text-decoration: none;
   font-size: 1.25em;
   font-weight: light;
   font-family: Georgia, Times, 'Times New Roman', serif;
-  border-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  border-top-right-radius: 0px;
+  border-top-left-radius: 0px;
+  border-bottom: solid 2px grey;
+  border-top: 2px solid grey;
   color: rgb(5, 74, 77);
   background-color: white;
 }
@@ -208,6 +220,13 @@ main{
 }
 
 #projecttwo{
+  position: absolute;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  top: 11.5vh;
+  margin-top: 0px;
+  margin-left: 33.5vw;
   background-color: rgb(242, 242, 242);
 }
 
@@ -229,33 +248,39 @@ main{
 #projecttwodesc{
   position: absolute;
   padding: 1vh;
-  margin: 0px auto;
+  margin: 1vh auto;
   width: 25vw;
   height: 16vh;
-  top: 19vw;
+  top: 18.5vw;
   left: 6%;
   font-size: 1em;
   border-radius: 10px;
+  border-bottom: 2px solid grey;
   font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   background-color: white;
 }
 
 #projecttwolink{
   position: absolute;
-  margin: 0vh auto;
+  margin: 11.3vh auto;
+  margin-bottom: 0px;
   height: 4vh;
-  padding: 0px 10px;
-  padding-top: 12vh;
+  padding: 5px 10px;
   padding-bottom: 0px;
   left: 74%;
   top: 17.2vh;
-  z-index: 0;
+  z-index: 1;
   text-align: center;
   text-decoration: none;
   font-size: 1.25em;
   font-weight: light;
   font-family: Georgia, Times, 'Times New Roman', serif;
-  border-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  border-top-right-radius: 0px;
+  border-top-left-radius: 0px;
+  border-bottom: solid 2px grey;
+  border-top: 2px solid grey;
   color: rgb(5, 74, 77);
   background-color: white;
 }
@@ -265,6 +290,13 @@ main{
 }
 
 #projectthree{
+  position: absolute;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  top: 11.5vh;
+  margin-top: 0px;
+  margin-left: 66vw;
   background-color: rgb(242, 242, 242);
 }
 
@@ -286,33 +318,39 @@ main{
 #projectthreedesc{
   position: absolute;
   padding: 1vh;
-  margin: 0px auto;
+  margin: 1vh auto;
   width: 25vw;
   height: 16vh;
-  top: 19vw;
+  top: 18.5vw;
   left: 6%;
   font-size: 1em;
   border-radius: 10px;
+  border-bottom: 2px solid grey;
   font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   background-color: white;
 }
 
 #projectthreelink{
   position: absolute;
-  margin: 0vh auto;
+  margin: 11vh auto;
+  margin-bottom: 0px;
   height: 4vh;
-  padding: 0px 10px;
-  padding-top: 12vh;
+  padding: 5px 10px;
   padding-bottom: 0px;
   left: 74%;
   top: 17.2vh;
-  z-index: 0;
+  z-index: 1;
   text-align: center;
   text-decoration: none;
   font-size: 1.25em;
   font-weight: light;
   font-family: Georgia, Times, 'Times New Roman', serif;
-  border-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  border-top-right-radius: 0px;
+  border-top-left-radius: 0px;
+  border-bottom: solid 2px grey;
+  border-top: 2px solid grey;
   color: rgb(5, 74, 77);
   background-color: white;
 }
@@ -321,11 +359,15 @@ main{
   background-color:#ccc;
 }
 
+#zooname{
+  padding-top: 20vh;
+  margin-bottom: 23vh;
+}
+
 
 .projectdivs{
   position: relative;
-  padding-top:10px;
-  margin: 5px auto;
+  padding-top: 10px;
   width: 30vw;
   height: 55vh;
   background-color: rgb(218, 218, 218);
@@ -333,17 +375,19 @@ main{
 }
 
 .projectname{
+  position: absolute;
   margin: 25vh 20px;
   width: 15vw;
   height: 4vh;
   padding-top: 3vh;
-  left: 10%;
+  left: 2%;
   text-align: center;
   font-size: 1.5em;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   font-weight: lighter;
   color: rgb(48, 112, 136);
   border-radius: 10px;
+  border-bottom: solid 2px grey;
   background-color: white;
 }
 
