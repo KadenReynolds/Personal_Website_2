@@ -1,6 +1,7 @@
 
 body{
   background-image: linear-gradient(to top, #ffffff, #d3c8ff, #a791ff, #7658ff, #2c00ff);
+  background-repeat: no-repeat;
 }
 
 header{
@@ -474,6 +475,8 @@ main{
   /* color: rgb(86, 86, 118); */
   color: rgb(224, 244, 253);
   text-shadow: 2px 1px 2px rgb(14, 53, 104);
+  -webkit-text-stroke-width: .2px;
+  -webkit-text-stroke-color: black;
 }
 
 .forminputs{
@@ -535,15 +538,24 @@ textarea{
 }
 
 #congratsheader{
+  margin-top: 0vh;
   font-size: 4em;
   text-align: center;
   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: rgb(65, 179, 255);
+  text-shadow: 3px 3px 3px rgb(0, 0, 0);
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: black;
 }
 
 #recievedheader{
-  font-size: 1em;
+  font-size: 1.5em;
   text-align: center;
   font-family:Tahoma, Geneva, Verdana, sans-serif;
+  color: rgb(65, 179, 255);
+  text-shadow: 3px 3px 3px rgb(0, 0, 0);
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
 }
 
 footer{
